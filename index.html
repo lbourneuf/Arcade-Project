@@ -15,12 +15,24 @@
     <ol class="rules">
         <p> Rules: </p>
         <li>Decide who will be Player 1 and Player 2.</li>
-        <li>Player 1 will be the X's and Player 2 is the O's.</li>
+        <li>Please enter your names in the inputs and you will be assigned either X or O.</li>
+        
         <li>The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. </li>
         <li> Have Fun!</li>
     </ol>
+
+    <div>
+        <label> Enter Player 1 Name: 
+            <input type="text" placeholder="Player 1 name" class="player-input"></input>
+        </label>
+        <label> Enter Player 2 Name: 
+            <input type="text" placeholder="Player 2 name" class="player-input"></input>
+        </label>
+        <button id="getnames" type="button">Submit Names</button>
+
+    </div>
     <section class="display">
-        Player <span class="display-player playerX">X</span>'s turn
+         <p id="display-player"></p>
     </section>
         
      <section class="container">
